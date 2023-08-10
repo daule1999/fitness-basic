@@ -9,14 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-native-community/netinfo": "9.3.10",
+    "@tanstack/query-async-storage-persister": "^4.32.6",
+    "@tanstack/react-query": "^4.32.6",
+    "@tanstack/react-query-persist-client": "^4.32.6",
     "expo": "~49.0.7",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react-native": "0.72.3",
+    "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@types/react": "~18.0.14",
+    "@types/react": "~18.2.14",
     "typescript": "^5.1.3"
   },
   "private": true
